@@ -1,16 +1,16 @@
 import Link from "next/link";
 import { FaShoppingBag } from "react-icons/fa";
+import ResponsiveMenu from "./responsivMenu";
 
 function Navbar() {
   return (
-    <nav className="bg-[url('/photo/download.png')] ">
-      <div className=" container mx-auto px-[40px]">
-        <div className="flex justify-between">
+    <nav className="bg-[url('/photo/download.png')]">
+      <div className="md:container xs:px-[10px] md:mx-auto md:px-[40px]">
+        <div className="flex justify-between items-center">
           <div className="py-8">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="163"
-              height="38"
+              className="xs:w-[130px] xs:h-[38px] w-[163px] h-[38px]"
               viewBox="0 0 163 38"
             >
               <g id="Logo" transform="translate(-260 -51)">
@@ -92,30 +92,38 @@ function Navbar() {
               </g>
             </svg>
           </div>
-          <ul className="flex gap-5 py-8 text-lg ">
-            <li className="hover:text-color1 duration-200">
-              <a href="">Home</a>
-            </li>
-            <li className="hover:text-color1 duration-200">
-              <a href="/">About Us</a>
-            </li>
-            <li className="hover:text-color1 duration-200">
-              <a href="">Restaurants</a>
-            </li>
-            <li className="hover:text-color1 duration-200">
-              <a href="/Bnner">Pages</a>
-            </li>
-            <li className="hover:text-color1 duration-200">
-              <a href="/Card">Contacts</a>
-            </li>
-          </ul>
-          <div className="flex gap-4 py-8">
-            <div className=" bg-white px-3 py-3.5 rounded-lg">
-              <FaShoppingBag className=" text-color1   " />
+
+          <div className="xs:hidden md:hidden lg:block">
+            <ul className="flex gap-5 py-8 text-lg">
+              <li className="hover:text-color1 duration-200">
+                <a href="">Home</a>
+              </li>
+              <li className="hover:text-color1 duration-200">
+                <a href="/">About Us</a>
+              </li>
+              <li className="hover:text-color1 duration-200">
+                <a href="">Restaurants</a>
+              </li>
+              <li className="hover:text-color1 duration-200">
+                <a href="/Bnner">Pages</a>
+              </li>
+              <li className="hover:text-color1 duration-200">
+                <a href="/Card">Contacts</a>
+              </li>
+            </ul>
+          </div>
+
+          <div className="lg:hidden my-auto">
+            <ResponsiveMenu />
+          </div>
+
+          <div className="flex gap-4 py-8 h-fit">
+            <div className="bg-white px-3 py-3.5 rounded-lg">
+              <FaShoppingBag className="text-color1" />
             </div>
             <Link
               href={"/"}
-              className="border-2 px-5 py-2 rounded-lg text-white bg-color1 border-color1 hover:bg-slate-50 hover:text-color1 duration-300"
+              className="xs:hidden md:block lg:block border-2 px-5 py-2 rounded-lg text-white bg-color1 border-color1 hover:bg-slate-50 hover:text-color1 duration-300"
             >
               ORDER NOW
             </Link>
@@ -125,4 +133,5 @@ function Navbar() {
     </nav>
   );
 }
+
 export default Navbar;

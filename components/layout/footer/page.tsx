@@ -151,23 +151,23 @@ function Footer() {
                 Contacts
               </h2>
               <h3 className="flex py-5 text-[#CFCFCF] font-bold text-base ">
-                <h4 className="px-3">
+                <p className="px-3">
                   <FaLocationDot className=" text-2xl text-color2" />
-                </h4>
+                </p>
                 <p className=" text-base ">
                   1717 Harrison St, San Francisco, CA 94103, United States
                 </p>
               </h3>
               <h3 className="flex py-4 text-[#CFCFCF] font-bold text-base ">
-                <h4 className="px-3">
+                <p className="px-3">
                   <MdEmail className=" text-2xl text-color2" />
-                </h4>
+                </p>
                 <p className=" text-base ">quickeat@mail.net</p>
               </h3>
               <h3 className="flex py-4 text-[#CFCFCF] font-bold text-base ">
-                <h4 className="px-3">
+                <p className="px-3">
                   <FaPhoneAlt className=" text-2xl text-[#787878]" />
-                </h4>
+                </p>
                 <p className=" text-base ">+1 425 326 16 27</p>
               </h3>
               <div className="flex gap-6 text-xl py-5 px-5 text-[#CFCFCF]">
@@ -186,12 +186,12 @@ function Footer() {
           <div className="flex justify-between text-color2 py-8 mr-20">
             <div>Copyright © 2023. QuickEat. All rights reserved.</div>
             <h2 className="gap-5 flex">
-              <h4>
+              <p>
                 <a href="">Privacy Policy</a>
-              </h4>
-              <h4>
+              </p>
+              <p>
                 <a href="">Terms & Services</a>
-              </h4>
+              </p>
             </h2>
           </div>
         </div>

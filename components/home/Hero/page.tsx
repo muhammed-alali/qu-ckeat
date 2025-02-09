@@ -7,10 +7,10 @@ function Hero() {
   return (
     <>
       <section className="bg-[url('/photo/download.png')]">
-        <div className="container mx-auto">
-          <div className=" grid grid-cols-2 text-center">
-            <div className=" py-40">
-              <h1 className=" text-6xl font-bold flex-wrap ">
+        <div className="xs:mx-4 md:container mx-auto">
+          <div className="xs:grid-cols-1 grid grid-cols-2 text-center">
+            <div className="xs:pt-[8rem] py-40">
+              <h1 className="xs:text-[25px] md:text-6xl font-bold flex-wrap ">
                 The Best Restaurants In Your Home
               </h1>
               <p className="flex-wrap py-5 mb-4 ">
@@ -33,20 +33,22 @@ function Hero() {
                 alt="Picture of the author"
               />
 
-              <div className="flex absolute top-52  right-24 bg-white py-3 px-3 rounded-2xl">
+              <div className="flex absolute xs:bottom-[-2.5rem] xs:right-0  md:top-52  md:right-24 bg-white py-3 px-3 rounded-2xl">
                 <div className="bg-color1 px-3 py-3 m-3 rounded-3xl">
                   <CiLocationOn className=" text-white text-xl font-bold" />
                 </div>
                 <div>
                   <div className=" px-2 py-2">
-                    <h4 className="text-lg font-bold">12 Restaurant</h4>
-                    <h3>In Your city</h3>
+                    <h3 className="xs:text-4 text-lg font-bold">
+                      12 Restaurant
+                    </h3>
+                    <p className="xs:text-sm">In Your city</p>
                   </div>
                 </div>
               </div>
 
               <div className=" grid grid-cols-2">
-                <div className="flex absolute bottom-[-1rem] bg-white py-3 px-3 rounded-2xl">
+                <div className="xs:bottom-auto flex absolute bottom-[-1rem] bg-white py-3 px-3 rounded-2xl">
                   <div>
                     <Image
                       src="/photo/photo-2.jpg"
@@ -57,8 +59,10 @@ function Hero() {
                   </div>
                   <div>
                     <div className=" px-2 py-2">
-                      <h4>Restaurant of the Month</h4>
-                      <h3 className=" text-lg font-bold">The Wilmington</h3>
+                      <p className="xs:text-sm">Restaurant of the Month</p>
+                      <h3 className="xs:text-[16px]  text-lg font-bold">
+                        The Wilmington
+                      </h3>
                     </div>
                     <div className=" flex text-color1 px-12 text-lg">
                       <IoIosStar />

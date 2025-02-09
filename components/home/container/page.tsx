@@ -11,9 +11,9 @@ function Container() {
         <div className="grid grid-cols-12 pl-[75px] justify-center py-10">
           <div className=" col-span-6 bg-white shadow-lg">
             <div className="p-7">
-              <h2 className=" text-4xl font-bold w-[385px] py-4">
+              <p className=" text-4xl font-bold w-[385px] py-4">
                 Latest news and events
-              </h2>
+              </p>
               <div className=" ">
                 <Image
                   className="rounded-xl "
@@ -83,12 +83,12 @@ function Container() {
                 </div>
                 <div>
                   <h1 className="flex gap-2 px-4 py-4">
-                    <h2 className="bg-color1 text-white py-1 px-[5px] rounded-md">
+                    <p className="bg-color1 text-white py-1 px-[5px] rounded-md">
                       restaurants
-                    </h2>
-                    <h2 className="bg-color1 text-white py-1 px-[5px] rounded-md">
+                    </p>
+                    <p className="bg-color1 text-white py-1 px-[5px] rounded-md">
                       cooking
-                    </h2>
+                    </p>
                   </h1>
                   <h3 className="text-xl font-bold py-1 px-4 w-[78%] hover:text-color1 duration-300">
                     <a href="">
@@ -129,12 +129,12 @@ function Container() {
                 </div>
                 <div>
                   <h1 className="flex gap-2 px-4 py-4">
-                    <h2 className="bg-color1 text-white py-1 px-[5px] rounded-md">
+                    <p className="bg-color1 text-white py-1 px-[5px] rounded-md">
                       restaurants
-                    </h2>
-                    <h2 className="bg-color1 text-white py-1 px-[5px] rounded-md">
+                    </p>
+                    <p className="bg-color1 text-white py-1 px-[5px] rounded-md">
                       cooking
-                    </h2>
+                    </p>
                   </h1>
                   <h3 className="text-xl font-bold py-1 px-4 w-[78%] hover:text-[#F29F05] duration-300">
                     <a href="">127+ Couriers On Our Team!</a>
@@ -173,12 +173,12 @@ function Container() {
                 </div>
                 <div>
                   <h1 className="flex gap-2 px-4 py-4">
-                    <h2 className="bg-color1 text-white py-1 px-[5px] rounded-md">
+                    <p className="bg-color1 text-white py-1 px-[5px] rounded-md">
                       restaurants
-                    </h2>
-                    <h2 className="bg-color1 text-white py-1 px-[5px] rounded-md">
+                    </p>
+                    <p className="bg-color1 text-white py-1 px-[5px] rounded-md">
                       cooking
-                    </h2>
+                    </p>
                   </h1>
                   <h3 className="text-xl font-bold py-1 px-4 w-[78%] hover:text-color1 duration-300">
                     <a href="">

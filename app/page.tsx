@@ -12,11 +12,9 @@ export default function Home() {
     <>
       <Hero />
       <Work />
-
       <CityRestaurants />
       <Your_Yavorite_Food />
       <Counters_Section />
-
       <Join_Bartnership />
       <Container />
       <Subscribe_Section />

@@ -3,9 +3,9 @@ import Image from "next/image";
 function Subscribe_Section() {
   return (
     <>
-      <section className=" container mx-auto justify-center">
-        <div className="grid grid-cols-12 pl-[75px] justify-center py-20">
-          <div className=" col-span-6">
+      <section className=" md:container xs:mx-4 mx-auto justify-center">
+        <div className="grid xs:grid-cols-1  md:grid-cols-2  justify-center py-20">
+          <div className=" ">
             <Image
               src={"/photo/illustration-4.png"}
               alt="Picture of the author"
@@ -14,8 +14,8 @@ function Subscribe_Section() {
             />
           </div>
 
-          <div className=" col-span-6 px-6 py-8">
-            <h2 className="text-6xl font-bold ">
+          <div className=" xs:px-4 px-6 py-8">
+            <h2 className="xs:text-[1.75rem] md:text-[2.75rem] md:leading-[1] lg:text-6xl font-bold ">
               Get the menu of your favorite restaurants every day
             </h2>
             <h2 className="mt-[20px] py-7">

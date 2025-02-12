@@ -10,9 +10,9 @@ function Footer() {
   return (
     <>
       <footer className=" bg-[#363636]">
-        <div className="container mx-auto px-[40px]">
+        <div className="md:container xs:mx-4 mx-auto md:px-[40px]">
           <div className="grid grid-cols-12">
-            <div className=" col-span-4 ">
+            <div className="xs:col-span-12 md:col-span-8 lg:col-span-4">
               <div className="py-8 text-white">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -103,7 +103,7 @@ function Footer() {
                   </g>
                 </svg>
               </div>
-              <h2 className=" text-white text-5xl font-bold">
+              <h2 className="xs:text-[2rem] xs:leading-[1.3] text-white text-5xl font-bold">
                 The Best Restaurants in Your Home
               </h2>
               <p className=" py-8 text-[#cfcfcf]">
@@ -112,10 +112,10 @@ function Footer() {
                 risus pretium quam
               </p>
             </div>
-            <div className=" col-span-4 py-9 px-20">
+            <div className="xs:col-span-12 md:col-span-6 xs:px-0 md:px-0 lg:px-20  lg:col-span-4   py-9 ">
               <h2 className="text-3xl uppercase font-bold text-color2">Menu</h2>
 
-              <ul className="text-[#CFCFCF] py-8 ">
+              <ul className="text-[#CFCFCF] xs:py-4 py-8 ">
                 <li className="py-2 text-lg hover:text-color1 duration-300">
                   {" "}
                   <a href="" className="flex">
@@ -146,7 +146,7 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div className=" col-span-4 py-9 px-20">
+            <div className="xs:col-span-12 md:col-span-6 lg:col-span-4  xs:px-0 md:px-0 lg:px-20  xs:py-4  py-9 ">
               <h2 className="text-3xl uppercase font-bold text-color2">
                 Contacts
               </h2>
@@ -183,9 +183,11 @@ function Footer() {
               </div>
             </div>
           </div>
-          <div className="flex justify-between text-color2 py-8 mr-20">
-            <div>Copyright © 2023. QuickEat. All rights reserved.</div>
-            <h2 className="gap-5 flex">
+          <div className="xs:block xs:mr-0 md:mr-0 lg:mr-20 flex justify-between text-color2 py-8 ">
+            <div className="xs:text-[14px]">
+              Copyright © 2023. QuickEat. All rights reserved.
+            </div>
+            <h2 className="gap-5 flex xs:text-[14px]">
               <p>
                 <a href="">Privacy Policy</a>
               </p>

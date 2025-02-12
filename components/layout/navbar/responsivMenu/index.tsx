@@ -28,19 +28,19 @@ export default function ResponsiveMenu() {
         <div className="absolute top-0 left-0 right-0 bg-white shadow-md z-50">
           <ul className="py-8 text-lg flex flex-col items-center space-y-4">
             <li className=" block hover:text-color1 duration-200">
-              <a href="">Home</a>
+              <a href="/">Home</a>
             </li>
             <li className="my-2 block hover:text-color1 duration-200">
               <a href="/">About Us</a>
             </li>
             <li className="my-2 block hover:text-color1 duration-200">
-              <a href="">Restaurants</a>
+              <a href="/">Restaurants</a>
             </li>
             <li className="my-2 block hover:text-color1 duration-200">
-              <a href="/Bnner">Pages</a>
+              <a href="/">Pages</a>
             </li>
             <li className="my-2 block hover:text-color1 duration-200">
-              <a href="/Card">Contacts</a>
+              <a href="/">Contacts</a>
             </li>
           </ul>
         </div>

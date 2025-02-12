@@ -46,7 +46,7 @@ function CityRestaurants() {
                   <div className="xs:justify-center px-4 py-2 gap-3 flex xs:flex-wrap">
                     <h3>
                       <Link
-                        href={""}
+                        href="/"
                         className=" xs:px-[5px]  px-[15px] py-[5px] text-color1 border-[1px] rounded-lg border-[#F29F05] font-semibold hover:bg-[#F29F05] hover:text-white duration-700"
                       >
                         american
@@ -54,7 +54,7 @@ function CityRestaurants() {
                     </h3>
                     <h3>
                       <Link
-                        href={""}
+                        href={"/"}
                         className="xs:px-[5px]  px-[15px] py-[5px] text-color1 border-[1px] rounded-lg border-[#F29F05] font-semibold hover:bg-[#F29F05] hover:text-white duration-700"
                       >
                         steakhouse
@@ -62,7 +62,7 @@ function CityRestaurants() {
                     </h3>
                     <h3>
                       <Link
-                        href={""}
+                        href={"/"}
                         className="xs:px-[5px]  px-[15px] py-[5px] text-color1 border-[1px] rounded-lg border-[#F29F05] font-semibold hover:bg-[#F29F05] hover:text-white duration-700"
                       >
                         seafood
@@ -105,7 +105,7 @@ function CityRestaurants() {
                 <div className="px-4 py-2 gap-3 flex xs:flex-wrap xs:justify-center">
                   <h3>
                     <Link
-                      href={""}
+                      href={"/"}
                       className="xs:px-[5px]  px-[15px] py-[5px] text-color1 border-[1px] rounded-lg font-semibold border-[#F29F05] hover:bg-[#F29F05] hover:text-white duration-700"
                     >
                       american
@@ -113,7 +113,7 @@ function CityRestaurants() {
                   </h3>
                   <h3>
                     <Link
-                      href={""}
+                      href={"/"}
                       className="xs:px-[5px]  px-[15px] py-[5px] text-color1 border-[1px] rounded-lg font-semibold border-[#F29F05] hover:bg-[#F29F05] hover:text-white duration-700"
                     >
                       steakhouse
@@ -121,7 +121,7 @@ function CityRestaurants() {
                   </h3>
                   <h3>
                     <Link
-                      href={""}
+                      href={"/"}
                       className="xs:px-[5px]  px-[15px] py-[5px] text-color1 border-[1px] rounded-lg font-semibold border-[#F29F05] hover:bg-[#F29F05] hover:text-white duration-700"
                     >
                       seafood
@@ -163,7 +163,7 @@ function CityRestaurants() {
                 <div className="xs:justify-center px-4 py-2 gap-3 flex xs:flex-wrap ">
                   <h3>
                     <Link
-                      href={""}
+                      href={"/"}
                       className="xs:px-[5px]  px-[15px] py-[5px] text-color1 border-[1px] rounded-lg font-semibold border-[#F29F05] hover:bg-[#F29F05] hover:text-white duration-700"
                     >
                       healthy
@@ -171,7 +171,7 @@ function CityRestaurants() {
                   </h3>
                   <h3>
                     <Link
-                      href={""}
+                      href={"/"}
                       className="xs:px-[5px]  px-[15px] py-[5px] text-color1 border-[1px] rounded-lg font-semibold border-[#F29F05] hover:bg-[#F29F05] hover:text-white duration-700"
                     >
                       steakhouse
@@ -179,7 +179,7 @@ function CityRestaurants() {
                   </h3>
                   <h3>
                     <Link
-                      href={""}
+                      href={"/"}
                       className="xs:px-[5px]  px-[15px] py-[5px] text-color1 border-[1px] rounded-lg font-semibold border-[#F29F05] hover:bg-[#F29F05] hover:text-white duration-700"
                     >
                       vegetarian
@@ -199,7 +199,7 @@ function CityRestaurants() {
         <div className=" text-center py-10">
           <h1>
             <Link
-              href={""}
+              href={"/"}
               className="px-[25px] py-[12px] text-color1 border-[1px] rounded-lg border-color1 hover:bg-color1 hover:text-white duration-300"
             >
               SEE ALL

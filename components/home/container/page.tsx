@@ -44,7 +44,7 @@ function Container() {
                 gravida.
               </p>
               <span>
-                <Link href={""} className="hover:text-color1 duration-300">
+                <Link href={"/"} className="hover:text-color1 duration-300">
                   Read More
                 </Link>
               </span>

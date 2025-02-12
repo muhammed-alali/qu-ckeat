@@ -25,7 +25,7 @@ function Hero() {
                 ORDER NOW
               </Link>
             </div>
-            <div className="md:my-auto ">
+            <div className="xs:my-8 md:my-auto ">
               <Image
                 src="/photo/photo-1.png"
                 width={600}
@@ -33,7 +33,7 @@ function Hero() {
                 alt="Picture of the author"
               />
 
-              <div className="flex absolute xs:bottom-[-2.5rem] xs:right-0  md:top-[10rem]  md:right-0 lg:right-4 xl:right-[7rem] bg-white py-3 px-3 rounded-2xl">
+              <div className="flex absolute xs:bottom-[-20.5rem] xs:right-0  md:top-[10rem]  md:right-0 lg:right-4 xl:right-[7rem] bg-white py-3 px-3 rounded-2xl">
                 <div className="bg-color1 px-2 py-2 lg:px-3 lg:py-3 m-3 rounded-3xl">
                   <CiLocationOn className=" text-white text-xl font-bold" />
                 </div>
@@ -48,7 +48,7 @@ function Hero() {
               </div>
 
               <div className=" grid grid-cols-2">
-                <div className="xs:bottom-auto flex absolute md:bottom-[11rem] lg:bottom-0 xl:bottom-[3rem]  bg-white py-3 px-3 rounded-2xl">
+                <div className="xs:bottom-auto flex absolute md:bottom-[7rem] lg:bottom-0 xl:bottom-[3rem]  bg-white py-3 px-3 rounded-2xl">
                   <div>
                     <Image
                       src="/photo/photo-2.jpg"

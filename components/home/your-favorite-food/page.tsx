@@ -16,19 +16,19 @@ function Your_Yavorite_Food() {
                 width={500}
                 height={400}
               />
-              <div className="flex absolute  md:top-[135rem]  bg-white py-3 px-3 rounded-2xl gap-2">
+              <div className=" flex  w-fit xl:top-0  bg-white py-3 px-3 rounded-2xl gap-2">
                 <FaHamburger className=" my-1 text-color1" />
                 <div>
                   <h1> Burgers</h1>
                 </div>
               </div>
-              <div className="xs:w-fit xs:bottom-[54px] xs:relative flex absolute xs:left-[204px] md:top-[134rem] left-[400px] xl:left-[460px] bg-white py-3 px-3 rounded-2xl gap-2">
+              <div className="w-fit xs:bottom-[110px] xs:relative md:relative md:top-[-95px] flex  xs:left-[204px] lg:top-[-100px] xl:top-[-143px] md:left-[225px]  lg:left-[350px] xl:left-[350px] bg-white py-3 px-3 rounded-2xl gap-2">
                 <FaCheese className=" my-1 text-color1" />
                 <div>
                   <h1> Steaks</h1>
                 </div>
               </div>
-              <div className="xs:w-fit xs:bottom-[280px] xs:relative flex absolute xs:left-[204px] md:top-[140rem] left-[413px]  xl:left-[460px]  bg-white py-3 px-3 rounded-2xl gap-2">
+              <div className="w-fit xs:bottom-[335px] xs:relative md:relative md:top-[-340px] flex lg:absolute xs:left-[204px] lg:top-[140rem] md:left-[225px]  lg:left-[400px]  xl:left-[460px]  bg-white py-3 px-3 rounded-2xl gap-2">
                 <FaPizzaSlice className=" my-1 text-color1" />
                 <div>
                   <h1> Pizza</h1>

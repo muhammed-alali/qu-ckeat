@@ -95,19 +95,19 @@ function Navbar() {
 
           <div className="xs:hidden md:hidden lg:block">
             <ul className="flex gap-5 py-8 text-lg">
-              <li className="hover:text-color1 duration-200">
+              <li className="text-title hover:text-color1 duration-200">
                 <a href="/">Home</a>
               </li>
-              <li className="hover:text-color1 duration-200">
+              <li className="text-title hover:text-color1 duration-200">
                 <a href="/">About Us</a>
               </li>
-              <li className="hover:text-color1 duration-200">
+              <li className="text-title hover:text-color1 duration-200">
                 <a href="/">Restaurants</a>
               </li>
-              <li className="hover:text-color1 duration-200">
+              <li className="text-title hover:text-color1 duration-200">
                 <a href="/">Pages</a>
               </li>
-              <li className="hover:text-color1 duration-200">
+              <li className="text-title hover:text-color1 duration-200">
                 <a href="/">Contacts</a>
               </li>
             </ul>

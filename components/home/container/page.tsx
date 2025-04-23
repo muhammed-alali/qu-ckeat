@@ -11,7 +11,7 @@ function Container() {
         <div className="grid xs:grid-cols-1 md:grid-cols-1 lg:grid-cols-2  justify-center py-10">
           <div className="  bg-white shadow-lg md:mx-4 lg:pr-0 xl:mx-0">
             <div className="xs:p-4 md:p-7  lg:p-4 xl:p-7">
-              <p className=" xs:text-[25px] xs:w-full xs:pt-8 leading-[1.3] text-4xl font-bold w-[385px] py-4">
+              <p className=" xs:text-[25px] text-title xs:w-full xs:pt-8 leading-[1.3] text-4xl font-bold w-[385px] py-4">
                 Latest news and events
               </p>
               <div className=" ">
@@ -34,17 +34,20 @@ function Container() {
                 </div>
               </div>
 
-              <h3 className=" xs:text-4 xs:w-full md:text-4xl lg:text-2xl xl:text-4xl font-bold md:w-[600px] lg:w-[500px] xl:w-[600px]  py-3">
+              <h3 className=" xs:text-4 text-title xs:w-full md:text-4xl lg:text-2xl xl:text-4xl font-bold md:w-[600px] lg:w-[500px] xl:w-[600px]  py-3">
                 We Have Received An Award For The Quality Of Our Work
               </h3>
-              <p className=" xs:text-sm xs:mb-6 leading-8">
+              <p className=" xs:text-sm text-color2 xs:mb-6 leading-8">
                 Donec adipiscing tristique risus nec feugiat in fermentum.
                 Sapien eget mi proin sed libero. Et magnis dis parturient montes
                 nascetur. Praesent semper feugiat nibh sed pulvinar proin
                 gravida.
               </p>
               <span>
-                <Link href={"/"} className="hover:text-color1 duration-300">
+                <Link
+                  href={"/"}
+                  className="text-title hover:text-color1 duration-300"
+                >
                   Read More
                 </Link>
               </span>
@@ -92,7 +95,7 @@ function Container() {
                       cooking
                     </p>
                   </h1>
-                  <h3 className="xs:px-0 xs:text-4 xs:w-full md:text-xl lg:text-[1rem] lg:leading-[1.5] xl:text-xl  font-bold py-1 px-4 w-[78%] hover:text-color1 duration-300">
+                  <h3 className="xs:px-0 text-title xs:text-4 xs:w-full md:text-xl lg:text-[1rem] lg:leading-[1.5] xl:text-xl  font-bold py-1 px-4 w-[78%] hover:text-color1 duration-300">
                     <a href="">
                       Why You Should Optimize Your Menu for Delivery
                     </a>
@@ -138,7 +141,7 @@ function Container() {
                       cooking
                     </p>
                   </h1>
-                  <h3 className="xs:px-0 xs:text-4 xs:w-full md:text-xl lg:text-[1rem] lg:leading-[1.5] xl:text-xl  font-bold py-1 px-4 w-[78%] hover:text-color1 duration-300">
+                  <h3 className="xs:px-0 text-title xs:text-4 xs:w-full md:text-xl lg:text-[1rem] lg:leading-[1.5] xl:text-xl  font-bold py-1 px-4 w-[78%] hover:text-color1 duration-300">
                     <a href="">127+ Couriers On Our Team!</a>
                   </h3>
                   <div className="xs:px-0 py-2 px-4">
@@ -182,7 +185,7 @@ function Container() {
                       cooking
                     </p>
                   </h1>
-                  <h3 className="xs:px-0 xs:text-4 xs:w-full md:text-xl lg:text-[1rem] lg:leading-[1.5] xl:text-xl  font-bold py-1 px-4 w-[78%] hover:text-color1 duration-300">
+                  <h3 className="xs:px-0 text-title xs:text-4 xs:w-full md:text-xl lg:text-[1rem] lg:leading-[1.5] xl:text-xl  font-bold py-1 px-4 w-[78%] hover:text-color1 duration-300">
                     <a href="">
                       Why You Should Optimize Your Menu for Delivery
                     </a>

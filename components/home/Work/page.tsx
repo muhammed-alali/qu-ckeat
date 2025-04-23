@@ -5,10 +5,10 @@ function Work() {
     <>
       <section className="xs:mx-4 md:container mx-auto py-24 xs:mt-[30px]">
         <div className="text-center flex-wrap py-10 ">
-          <h1 className="xs:text-[25px] text-5xl font-bold py-2 ">
+          <h1 className="xs:text-[25px] text-5xl font-bold py-2 text-title">
             How It Works
           </h1>
-          <p className="">
+          <p className="text-color2">
             Magna sit amet purus gravida quis blandit turpis cursus. Venenatis
             tellus inmetus vulputate eu scelerisque felis.
           </p>
@@ -22,7 +22,7 @@ function Work() {
               height={300}
             />
             <h2 className="font-bold text-2xl py-3 ">
-              <span className="px-2 text-[#cfcfcf] text-4xl">01</span>Select
+              <span className="px-2 text-title text-4xl">01</span>Select
               Restaurant
             </h2>
             <p className="xs:text-sm leading-7 xs:w-[19rem] w-80 text-color2">
@@ -40,8 +40,7 @@ function Work() {
               height={300}
             />
             <h2 className="font-bold text-2xl py-3">
-              <span className="px-2 text-[#cfcfcf] text-4xl">02</span>Select
-              menu
+              <span className="px-2 text-title text-4xl">02</span>Select menu
             </h2>
             <p className="xs:text-sm leading-7 xs:w-[19rem] w-80 text-color2">
               Eu mi bibendum neque egestas congue quisque. Nulla facilisi morbi
@@ -57,7 +56,7 @@ function Work() {
               height={300}
             />
             <h2 className="font-bold text-2xl py-3">
-              <span className="px-2 text-[#cfcfcf] text-4xl">03</span>Wait for
+              <span className="px-2 text-title text-4xl">03</span>Wait for
               delivery
             </h2>
             <p className="xs:text-sm leading-7 xs:w-[19rem] w-80 text-color2">

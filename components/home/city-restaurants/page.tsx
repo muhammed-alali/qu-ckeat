@@ -12,7 +12,7 @@ function CityRestaurants() {
           <div className="">
             <div>
               <div className=" text-center">
-                <h2 className="xs:text-[25px] md:text-[3rem] xl:text-6xl font-bold md:leading-[4rem] lg:leading-normal">
+                <h2 className="xs:text-[25px] md:text-[3rem] text-title xl:text-6xl font-bold md:leading-[4rem] lg:leading-normal">
                   12 Best Restaurants in Your City
                 </h2>
                 <p className="xs:leading-[1.5rem] xs:text-[15px] leading-7 text-color2 py-5">
@@ -31,7 +31,7 @@ function CityRestaurants() {
                   />
                 </div>
                 <div>
-                  <h2 className="xs:text-center px-4 py-1 text-2xl font-bold">
+                  <h2 className="xs:text-center px-4 py-1 text-2xl font-bold text-title">
                     The Wilmington
                   </h2>
 
@@ -69,7 +69,7 @@ function CityRestaurants() {
                       </Link>
                     </h3>
                   </div>
-                  <p className="xs:text-center xs:w-full xs:text-sm md:max-w-96 py-2 px-4">
+                  <p className="xs:text-center text-color2 xs:w-full xs:text-sm md:max-w-96 py-2 px-4">
                     Vulputate enim nulla aliquet porttitor lacus luctus.
                     Suscipit adipiscing bibendum est ultricies integer. Sed
                     adipiscing diam donec adipiscing tristique.
@@ -90,7 +90,7 @@ function CityRestaurants() {
                 />
               </div>
               <div>
-                <h2 className="xs:text-[20px] px-4 py-1 text-2xl font-bold xs:text-center">
+                <h2 className="xs:text-[20px] text-title px-4 py-1 text-2xl font-bold xs:text-center">
                   Kennington Lane Cafe
                 </h2>
 
@@ -128,7 +128,7 @@ function CityRestaurants() {
                     </Link>
                   </h3>
                 </div>
-                <p className="xs:w-full xs:text-sm  xs:text-center md:max-w-96 py-2 px-4 ">
+                <p className="xs:w-full text-color2 xs:text-sm  xs:text-center md:max-w-96 py-2 px-4 ">
                   Non enim praesent elementum facilisis leo vel fringilla.
                   Lectus proin nibh nisl condimentum id. Quis varius quam
                   quisque id diam vel.
@@ -148,7 +148,7 @@ function CityRestaurants() {
               </div>
 
               <div>
-                <h2 className="xs:text-center px-4 py-1 text-2xl font-bold ">
+                <h2 className="xs:text-center text-title px-4 py-1 text-2xl font-bold ">
                   Kings Arms
                 </h2>
 
@@ -186,7 +186,7 @@ function CityRestaurants() {
                     </Link>
                   </h3>
                 </div>
-                <p className="xs:text-center xs:w-full xs:text-sm  md:max-w-96 py-2 px-4">
+                <p className="xs:text-center xs:w-full text-color2 xs:text-sm  md:max-w-96 py-2 px-4">
                   Tortor at risus viverra adipiscing at in tellus. Cras semper
                   auctor neque vitae tempus. Dui accumsan sit amet nulla
                   facilisi. Sed adipiscing diam donec adipiscing tristique.

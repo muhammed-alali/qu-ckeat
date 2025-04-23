@@ -15,7 +15,7 @@ function Subscribe_Section() {
           </div>
 
           <div className=" xs:px-4 px-6 py-8">
-            <h2 className="xs:text-[1.75rem] md:text-[2.75rem] md:leading-[1] lg:text-6xl font-bold ">
+            <h2 className="xs:text-[1.75rem] text-title md:text-[2.75rem] md:leading-[1] lg:text-6xl font-bold ">
               Get the menu of your favorite restaurants every day
             </h2>
             <h2 className="mt-[20px] py-7">

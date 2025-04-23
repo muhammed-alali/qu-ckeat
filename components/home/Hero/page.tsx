@@ -10,7 +10,7 @@ function Hero() {
         <div className="xs:mx-4 md:container mx-auto">
           <div className="xs:grid-cols-1 grid grid-cols-2 text-center">
             <div className="xs:pt-[8rem] md:pt-[6rem] lg:py-40">
-              <h1 className="xs:text-[25px] md:text-[3rem] leading-[1] lg:text-6xl font-bold flex-wrap ">
+              <h1 className="xs:text-[25px] md:text-[3rem] text-title leading-[1] lg:text-6xl font-bold flex-wrap ">
                 The Best Restaurants In Your Home
               </h1>
               <p className="flex-wrap py-5 mb-4 ">
@@ -39,10 +39,10 @@ function Hero() {
                 </div>
                 <div>
                   <div className=" px-2 py-2">
-                    <h3 className="xs:text-4 md:text-[16px] lg:text-lg font-bold">
+                    <h3 className="xs:text-4 text-title md:text-[16px] lg:text-lg font-bold">
                       12 Restaurant
                     </h3>
-                    <p className="text-sm">In Your city</p>
+                    <p className="text-sm text-color2">In Your city</p>
                   </div>
                 </div>
               </div>
@@ -59,8 +59,10 @@ function Hero() {
                   </div>
                   <div>
                     <div className=" px-2 py-2">
-                      <p className="text-sm">Restaurant of the Month</p>
-                      <h3 className="xs:text-[16px] md:text-[16px] lg:text-lg  font-bold">
+                      <p className="text-sm text-color2">
+                        Restaurant of the Month
+                      </p>
+                      <h3 className="xs:text-[16px] text-title md:text-[16px] lg:text-lg  font-bold">
                         The Wilmington
                       </h3>
                     </div>
